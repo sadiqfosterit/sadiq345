@@ -1,0 +1,99 @@
+header {
+	background-color: #454343;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+.carousel-caption{
+	top: 30%;
+}
+.carousel-caption h5{
+	font-size: 80px;
+}
+.carousel-item img{
+	width: 300px;
+	height: 400px;
+}
+.outer-div{
+	height: 350px;
+	overflow: hidden;
+}
+.inner-div1{
+	height: 300px;
+	width:100%;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.5s ease;
+	background-image:url(../images/g5.jpg); 
+}
+.inner-div1:hover{
+	transform:scale(1.2);
+}
+.inner-div2{
+	height: 300px;
+	width:100%;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.5s ease;
+	background-image:url(../images/g6.jpg); 
+}
+.inner-div2:hover{
+	transform:scale(1.2);
+}
+.zoom-box-text{
+	color: white;
+	text-align: center;
+	line-height: 300px;
+}
+.counter{
+	background-image:url(../images/g3.jpg); 
+	background-attachment: fixed;
+	background-size: cover;
+	color:white;
+
+
+}
+.discount{
+	background: url(../images/g6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.discount-center{
+	padding:150px 0;
+	color: white;
+}
+.discount .icon{
+	font-size: 100px;
+	color: white;
+}
+.slider img{
+	width: 50px;
+	height: 50px;
+}
+.paymand-method {
+	background-color: #f8f8f8;
+	padding: 10px 40px 30px 20px;
+	border-radius: 30px;
+	border: 3px solid #817878;
+   margin-bottom: 20px;
+   margin-left: 150px;
+
+}
+.paymand-method .icon{
+	font-size: 60px;
+	color: dimgray;
+}
+.paymand-method img{
+	width: 92%;
+	height: 44%;
+}
+footer{
+	background: url(../images/g6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	color: aliceblue;
+
+}
